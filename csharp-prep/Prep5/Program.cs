@@ -35,7 +35,7 @@ class Program
             Console.WriteLine($"{name}, the square of your number is {number}");
         }
 
-        
+        DisplayWelcome();
         DisplayResult(PromptUserName(), SquareNumber(PromptUserNumber()));
 
         // Probably cleaner option:
